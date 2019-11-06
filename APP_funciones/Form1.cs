@@ -16,5 +16,13 @@ namespace APP_funciones
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+        private int fun_suma(int a, int b) {
+            return (a+b);
+        }
     }
 }
