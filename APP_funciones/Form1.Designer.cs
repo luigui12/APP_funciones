@@ -65,9 +65,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(157, 125);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 13);
+            this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "sumaer";
+            this.label3.Text = "resultado";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // suma
@@ -82,7 +82,7 @@
             // 
             // cerrar
             // 
-            this.cerrar.Location = new System.Drawing.Point(320, 163);
+            this.cerrar.Location = new System.Drawing.Point(480, 96);
             this.cerrar.Name = "cerrar";
             this.cerrar.Size = new System.Drawing.Size(75, 23);
             this.cerrar.TabIndex = 4;
@@ -106,14 +106,17 @@
             // 
             // sumar
             // 
+            this.sumar.Enabled = false;
             this.sumar.Location = new System.Drawing.Point(320, 128);
             this.sumar.Name = "sumar";
             this.sumar.Size = new System.Drawing.Size(100, 20);
             this.sumar.TabIndex = 7;
+            this.sumar.WordWrap = false;
+            this.sumar.TextChanged += new System.EventHandler(this.sumar_TextChanged);
             // 
             // resta
             // 
-            this.resta.Location = new System.Drawing.Point(160, 192);
+            this.resta.Location = new System.Drawing.Point(256, 163);
             this.resta.Name = "resta";
             this.resta.Size = new System.Drawing.Size(75, 23);
             this.resta.TabIndex = 8;
@@ -123,27 +126,29 @@
             // 
             // multiplicacion
             // 
-            this.multiplicacion.Location = new System.Drawing.Point(160, 222);
+            this.multiplicacion.Location = new System.Drawing.Point(356, 163);
             this.multiplicacion.Name = "multiplicacion";
             this.multiplicacion.Size = new System.Drawing.Size(75, 23);
             this.multiplicacion.TabIndex = 9;
             this.multiplicacion.Text = "multipli.";
             this.multiplicacion.UseVisualStyleBackColor = true;
+            this.multiplicacion.Click += new System.EventHandler(this.multiplicacion_Click);
             // 
             // division
             // 
-            this.division.Location = new System.Drawing.Point(160, 252);
+            this.division.Location = new System.Drawing.Point(458, 163);
             this.division.Name = "division";
             this.division.Size = new System.Drawing.Size(75, 23);
             this.division.TabIndex = 10;
             this.division.Text = "division";
             this.division.UseVisualStyleBackColor = true;
+            this.division.Click += new System.EventHandler(this.division_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(589, 222);
             this.Controls.Add(this.division);
             this.Controls.Add(this.multiplicacion);
             this.Controls.Add(this.resta);
