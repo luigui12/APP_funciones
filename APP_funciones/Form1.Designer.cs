@@ -44,7 +44,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(157, 76);
+            this.label1.Location = new System.Drawing.Point(58, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 13);
             this.label1.TabIndex = 0;
@@ -53,7 +53,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(157, 101);
+            this.label2.Location = new System.Drawing.Point(58, 62);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(99, 13);
             this.label2.TabIndex = 1;
@@ -63,7 +63,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(157, 125);
+            this.label3.Location = new System.Drawing.Point(58, 86);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 2;
@@ -72,7 +72,7 @@
             // 
             // suma
             // 
-            this.suma.Location = new System.Drawing.Point(160, 163);
+            this.suma.Location = new System.Drawing.Point(61, 124);
             this.suma.Name = "suma";
             this.suma.Size = new System.Drawing.Size(75, 23);
             this.suma.TabIndex = 3;
@@ -82,7 +82,7 @@
             // 
             // cerrar
             // 
-            this.cerrar.Location = new System.Drawing.Point(480, 96);
+            this.cerrar.Location = new System.Drawing.Point(381, 57);
             this.cerrar.Name = "cerrar";
             this.cerrar.Size = new System.Drawing.Size(75, 23);
             this.cerrar.TabIndex = 4;
@@ -92,14 +92,14 @@
             // 
             // num1
             // 
-            this.num1.Location = new System.Drawing.Point(320, 69);
+            this.num1.Location = new System.Drawing.Point(221, 30);
             this.num1.Name = "num1";
             this.num1.Size = new System.Drawing.Size(100, 20);
             this.num1.TabIndex = 5;
             // 
             // num2
             // 
-            this.num2.Location = new System.Drawing.Point(320, 101);
+            this.num2.Location = new System.Drawing.Point(221, 62);
             this.num2.Name = "num2";
             this.num2.Size = new System.Drawing.Size(100, 20);
             this.num2.TabIndex = 6;
@@ -107,7 +107,7 @@
             // sumar
             // 
             this.sumar.Enabled = false;
-            this.sumar.Location = new System.Drawing.Point(320, 128);
+            this.sumar.Location = new System.Drawing.Point(221, 89);
             this.sumar.Name = "sumar";
             this.sumar.Size = new System.Drawing.Size(100, 20);
             this.sumar.TabIndex = 7;
@@ -116,7 +116,7 @@
             // 
             // resta
             // 
-            this.resta.Location = new System.Drawing.Point(256, 163);
+            this.resta.Location = new System.Drawing.Point(157, 124);
             this.resta.Name = "resta";
             this.resta.Size = new System.Drawing.Size(75, 23);
             this.resta.TabIndex = 8;
@@ -126,7 +126,7 @@
             // 
             // multiplicacion
             // 
-            this.multiplicacion.Location = new System.Drawing.Point(356, 163);
+            this.multiplicacion.Location = new System.Drawing.Point(257, 124);
             this.multiplicacion.Name = "multiplicacion";
             this.multiplicacion.Size = new System.Drawing.Size(75, 23);
             this.multiplicacion.TabIndex = 9;
@@ -136,7 +136,7 @@
             // 
             // division
             // 
-            this.division.Location = new System.Drawing.Point(458, 163);
+            this.division.Location = new System.Drawing.Point(359, 124);
             this.division.Name = "division";
             this.division.Size = new System.Drawing.Size(75, 23);
             this.division.TabIndex = 10;
@@ -148,7 +148,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(589, 222);
+            this.ClientSize = new System.Drawing.Size(475, 175);
             this.Controls.Add(this.division);
             this.Controls.Add(this.multiplicacion);
             this.Controls.Add(this.resta);
