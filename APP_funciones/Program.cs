@@ -16,7 +16,7 @@ namespace APP_funciones
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Area_Triangulo());
         }
     }
 }

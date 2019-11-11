@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Area_Triangulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area_Triangulo.Designer.cs">
+      <DependentUpon>Area_Triangulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Area_Volumen_Cilindro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Area_Volumen_Cilindro.Designer.cs">
+      <DependentUpon>Area_Volumen_Cilindro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuadrado de un Numero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuadrado de un Numero.Designer.cs">
+      <DependentUpon>Cuadrado de un Numero.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,13 +76,40 @@
     <Compile Include="Funcion_Cuadratica.Designer.cs">
       <DependentUpon>Funcion_Cuadratica.cs</DependentUpon>
     </Compile>
+    <Compile Include="Perimetro_Area_Rect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perimetro_Area_Rect.Designer.cs">
+      <DependentUpon>Perimetro_Area_Rect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perimetro_Superficie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perimetro_Superficie.Designer.cs">
+      <DependentUpon>Perimetro_Superficie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Area_Triangulo.resx">
+      <DependentUpon>Area_Triangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Area_Volumen_Cilindro.resx">
+      <DependentUpon>Area_Volumen_Cilindro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuadrado de un Numero.resx">
+      <DependentUpon>Cuadrado de un Numero.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Funcion_Cuadratica.resx">
       <DependentUpon>Funcion_Cuadratica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perimetro_Area_Rect.resx">
+      <DependentUpon>Perimetro_Area_Rect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perimetro_Superficie.resx">
+      <DependentUpon>Perimetro_Superficie.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
