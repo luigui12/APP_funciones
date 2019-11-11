@@ -58,6 +58,12 @@
     <Compile Include="Area_Volumen_Cilindro.Designer.cs">
       <DependentUpon>Area_Volumen_Cilindro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Conversor_medidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conversor_medidas.Designer.cs">
+      <DependentUpon>Conversor_medidas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cuadrado de un Numero.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Area_Volumen_Cilindro.resx">
       <DependentUpon>Area_Volumen_Cilindro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conversor_medidas.resx">
+      <DependentUpon>Conversor_medidas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cuadrado de un Numero.resx">
       <DependentUpon>Cuadrado de un Numero.cs</DependentUpon>
