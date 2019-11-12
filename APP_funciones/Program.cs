@@ -16,7 +16,7 @@ namespace APP_funciones
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Conversor_medidas());
+            Application.Run(new Temperatura());
         }
     }
 }

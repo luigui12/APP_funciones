@@ -33,5 +33,10 @@ namespace APP_funciones
         {
             this.Close();
         }
+
+        private void calcular_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -96,6 +96,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Temperatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Temperatura.Designer.cs">
+      <DependentUpon>Temperatura.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Area_Triangulo.resx">
       <DependentUpon>Area_Triangulo.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +135,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Temperatura.resx">
+      <DependentUpon>Temperatura.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
