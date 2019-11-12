@@ -169,7 +169,6 @@
             this.Controls.Add(this.calcular);
             this.Name = "Area_Triangulo";
             this.Text = "Area_Triangulo";
-            this.Load += new System.EventHandler(this.Area_Triangulo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
