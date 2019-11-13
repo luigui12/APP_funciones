@@ -70,6 +70,12 @@
     <Compile Include="Cuadrado de un Numero.Designer.cs">
       <DependentUpon>Cuadrado de un Numero.cs</DependentUpon>
     </Compile>
+    <Compile Include="Factorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Factorial.Designer.cs">
+      <DependentUpon>Factorial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cuadrado de un Numero.resx">
       <DependentUpon>Cuadrado de un Numero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factorial.resx">
+      <DependentUpon>Factorial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
