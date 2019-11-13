@@ -110,6 +110,7 @@
             // 
             this.p.Location = new System.Drawing.Point(136, 129);
             this.p.Name = "p";
+            this.p.ReadOnly = true;
             this.p.Size = new System.Drawing.Size(100, 20);
             this.p.TabIndex = 7;
             // 
@@ -117,6 +118,7 @@
             // 
             this.pu.Location = new System.Drawing.Point(136, 169);
             this.pu.Name = "pu";
+            this.pu.ReadOnly = true;
             this.pu.Size = new System.Drawing.Size(100, 20);
             this.pu.TabIndex = 8;
             this.pu.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
@@ -152,7 +154,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(344, 277);
+            this.ClientSize = new System.Drawing.Size(306, 272);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.a);
