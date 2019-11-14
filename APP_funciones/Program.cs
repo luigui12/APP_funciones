@@ -16,7 +16,7 @@ namespace APP_funciones
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Area_Triangulo());
+            Application.Run(new Factorial());
         }
     }
 }

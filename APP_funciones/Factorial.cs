@@ -26,20 +26,31 @@ namespace APP_funciones
 
         private void sa_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Gracias por visitar... :) ");
             this.Close();
         }
 
         private void C_Click(object sender, EventArgs e)
         {
-
-        }
-        private long C_numero (int n)
-        {
-            int x1 = 0;
-            for(int i=1;i<n; i++)
+            long n;
+            if (this.numero.Text.Length==0)
             {
-                x1 = i * n;
+                MessageBox.Show("No existen valores en la caja de texto a factorizar...");
+                this.numero.Focus();
+                return;
             }
+            n = long.Parse(this.numero.Text);
+            long x = C_numero(n);
+            this.re.Text = x.ToString();
+        }
+        private long C_numero (long n)
+        {
+            int x1 = 1;
+            for(int i=1;i<=n; i++)
+            {
+                x1 = x1 * i;
+            }
+            return x1;
         }
     }
 }
